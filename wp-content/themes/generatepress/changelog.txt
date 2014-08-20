@@ -1,0 +1,118 @@
+Changelog Legend:
+----
+
+[+] = Added
+[*] = Changed
+[^] = Moved
+[=] = No Changes
+[x] = Deleted
+[!] = Bugs
+
+---- 
+
+(8/7/2014) - 1.1.1
+
+[!] PHP notice removed from left sidebar on no results page
+[!] .site-logo given max-width of 100% for mobile reasons
+[*] Adjustments to default typography settings
+[*] Remove default sidebar widgets if navigation is set in that sidebar
+[*] Adjustments to default color settings
+
+----
+
+(7/31/2014) - 1.1.0
+
+[+] Added generate_main_class to <main> container to allow adding of classes
+[x] Removed extra empty CSS file - using is_child_theme instead
+[*] Cleaned up some CSS
+[+] Move navigation below header on mobile devices if originally in a sidebar
+[+] German translation added
+[+] GENERATE_DISABLE_MOBILE constant added to remove mobile responsive functionality
+[+] Added wrapper surrounding site logo
+[+] Added focus and active attributes to link color on hover
+[*] Header widget set to a max-width of 50% of the header
+[*] Couple mobile tweaks - center header and menu toggle
+[+] Subtle CSS transition added to links
+[*] Bundled skip-link-focus.fix.js with scripts.js to cut down on http requests
+[+] generate_inside_navigation hook added
+[*] Moved $content_width inside after_setup_theme action
+[!] Fixed bug causing single post specific sidebar layouts not to work
+[+] Filters added to sidebar widths for easy alteration
+
+----
+
+(7/9/2014) - 1.0.9
+
+[+] .pot file added for translation
+[+] Compatibility added for Generate Spacing addon
+[+] Option for a 5th footer widget
+[*] File cleanup
+[*] Customize.php generated CSS moved above enqueued child theme css
+[*] Changes made to better sane defaults
+
+----
+
+(6/18/2014) - 1.0.8
+
+[+] Sanitization for all Customizer options
+[!] Allow transparent header background
+[*] Hide title, hide tagline and logo options moved into generate_settings db entry
+[!] Fix bug regarding deleting options in GeneratePress options page
+[*] Screenshot updated
+
+----
+
+(6/7/2014) - 1.0.7
+
+[*] Page header on single post moved within content
+[+] Single Post Layout setting added
+[+] Blog post content setting added - show full post or excerpt
+[+] Hook added after entry header
+
+----
+
+(5/30/2014) - 1.0.6
+
+[!] Fixed major bug causing Customizer options to disappear
+[+] Additional tags
+[+] More hooks
+
+----
+
+(5/23/2014) - 1.0.5
+[*] Theme defaults changed from global variable to function: generate_get_defaults()
+[+] Addons file added to add default styles and fonts when addons aren't installed
+[+] Added instruction on how to save and activate addon license keys
+[x] Featured image removed from attachment template
+[!] Remove page header container if no page header is set (removes unnecessary gap)
+
+----
+
+(5/20/2014) - 1.0.4
+[*] Readme.txt updated
+[*] Screenshot updated
+
+----
+
+(5/19/2014) - 1.0.3
+[x] Script options
+
+----
+
+(5/19/2014) - 1.0.2
+[+] Page header can be added using the Featured Image option
+[x] Activated message deleted
+[!] Fixed broken caption background URL in CSS
+[*] Bottom padding removed from last header widget
+[*] Screenshot updated
+
+----
+
+(5/16/2014) - 1.0.1
+[!] Fixed mobile menu when centered
+[*] Screenshot updated
+
+----
+
+(04/26/2014) - 1.0
+Initial Release

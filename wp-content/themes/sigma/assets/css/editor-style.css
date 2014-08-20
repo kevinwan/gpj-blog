@@ -1,0 +1,268 @@
+body {
+  background: #fff;
+  font: 16px/1.5em 'Open Sans', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #444; 
+}
+
+/* #Typography
+================================================== */
+h1, h2, h3, h4, h5, h6 {
+  color: #181818;
+ margin:0px;
+  font-family: 'Open Sans',"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal; }
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  font-weight: inherit;
+  text-decoration: none; }
+
+h1 {
+  font-size: 46px;
+  line-height: 50px; }
+
+h2 {
+  font-size: 35px;
+  line-height: 40px; }
+
+h3 {
+  font-size: 28px;
+  line-height: 34px; }
+
+h4 {
+  font-size: 21px;
+  line-height: 30px; }
+
+h5 {
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: bold; }
+
+h6 {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: bold; }
+
+.subheader {
+  color: #777; }
+
+p {
+  margin: 0 0 20px 0; }
+
+p img {
+  margin: 0; }
+
+p.lead {
+  font-size: 21px;
+  line-height: 27px;
+  color: #777; }
+
+em {
+  font-style: italic; }
+
+strong {
+  font-weight: bold;
+  color: #333; }
+
+small {
+  font-size: 80%; }
+
+/*	Blockquotes  */
+blockquote, blockquote p {
+  font-size: 17px;
+  line-height: 24px;
+  color: #777;
+  font-style: italic; }
+
+blockquote {
+  margin: 0 0 20px;
+  padding: 9px 20px 0 19px;
+  border-left: 1px solid #ddd; }
+
+blockquote cite {
+  display: block;
+  font-size: 12px;
+  color: #555; }
+
+blockquote cite:before {
+  content: "\2014 \0020"; }
+
+blockquote cite a, blockquote cite a:visited, blockquote cite a:visited {
+  color: #555; }
+
+hr {
+  border: solid #ddd;
+  border-width: 1px 0 0;
+  clear: both;
+  margin: 10px 0 30px;
+  height: 0; }
+
+/* #Links
+================================================== */
+a, a:visited {
+  color: #333;
+  text-decoration: underline;
+  outline: 0; }
+
+a:hover, a:focus {
+  color: #000; }
+
+p a, p a:visited {
+  line-height: inherit; }
+
+/* #Lists
+================================================== */
+ul, ol {
+  margin-bottom: 20px; }
+
+ul.disc {
+  list-style: disc; }
+
+ol {
+  list-style: decimal; }
+
+article ul, ol, ul.disc {
+  margin-left: 30px; }
+
+article ul, ul.square {
+  list-style: square outside; }
+
+ul.circle {
+  list-style: circle outside; }
+
+ul.disc {
+  list-style: disc outside; }
+
+ul ul, ul ol,
+ol ol, ol ul {
+  margin: 4px 0 5px 30px;
+  font-size: 90%; }
+
+ul ul li, ul ol li,
+ol ol li, ol ul li {
+  margin-bottom: 6px; }
+
+li {
+  line-height: 18px;
+  margin-bottom: 12px; }
+
+ul.large li {
+  line-height: 21px; }
+
+li p {
+  line-height: 21px; }
+
+/* #Lists
+================================================== */
+dl {
+  margin: 0 1.714285714rem; }
+
+dt {
+  font-weight: bold; }
+
+dd {
+  margin-bottom: 20px; }
+
+address {
+  margin-bottom: 20px; }
+
+acronym, abbr {
+  border-bottom: 1px dotted #666;
+  cursor: help; }
+
+code {
+  font-family: Consolas, Monaco, Lucida Console, monospace;
+  font-size: 12px;
+  font-size: 0.857142857rem;
+  line-height: 2; }
+
+ins {
+  background: #fff9c0;
+  text-decoration: none; }
+
+pre {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  background: #f4f4f4;
+  font: 13px "Courier 10 Pitch", Courier, monospace;
+  line-height: 1.5;
+  margin-bottom: 1.625em;
+  overflow: auto;
+  padding: 0.75em 1.625em; }
+
+sub {
+  top: .5ex;
+  font-size: 10px;
+  height: 0;
+  line-height: 1;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  bottom: 1ex;
+  font-size: 10px;
+  height: 0;
+  line-height: 1;
+  position: relative;
+  vertical-align: baseline; }
+
+var {
+  font: 13px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace; }
+
+
+/* #Alerts
+================================================== */
+.alert {
+  margin: 20px 0;
+  border-left: 5px solid #EEE; }
+
+.alert p {
+  padding: 15px 30px 15px 15px;
+  margin: 0px; }
+
+.alert-success {
+  background-color: #eaf7e5;
+  border-color: #398439; }
+
+.alert-info {
+  background-color: #f0f7fd;
+  border-color: #d0e3f0; }
+
+.alert-warning {
+  background-color: #fefbed;
+  border-color: #f1e7bc; }
+
+.alert-error {
+  background-color: #fcf2f2;
+  border-color: #dfb5b4; }
+
+/* #Images
+================================================== */
+img.scale-with-grid {
+  max-width: 100%;
+  height: auto; }
+
+.alignleft {
+  display: inline;
+  float: left;
+  margin-right: 1.625em; }
+
+.alignright {
+  display: inline;
+  float: right;
+  margin-left: 1.625em; }
+
+.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.main img {
+  max-width: 97.5%;
+  height: auto; }
+
+.wp-caption,
+.wp-caption-text,
+.gallery-caption {
+  max-width: 96%;
+  font-size: 0.9em;
+  font-style: italic; }

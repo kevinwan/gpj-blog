@@ -1,0 +1,282 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: sigma 0.1.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-01-14 12:41+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: 404.php:15 build/sigma/404.php:15
+msgid "Sorry, we couldn't find it."
+msgstr ""
+
+#: 404.php:19 build/sigma/404.php:19
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps try "
+"searching for it?"
+msgstr ""
+
+#: archive.php:27 build/sigma/archive.php:27
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: archive.php:30 build/sigma/archive.php:30
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: archive.php:33 build/sigma/archive.php:33
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: archive.php:36 build/sigma/archive.php:36
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: archive.php:38 build/sigma/archive.php:38
+msgid "Archives"
+msgstr ""
+
+#: author.php:17 build/sigma/author.php:17
+#, php-format
+msgid "Author Archives: <span class=\"vcard\">%s</span>"
+msgstr ""
+
+#: build/sigma/comments.php:15 comments.php:15
+#, php-format
+msgid "One Response to %2$s"
+msgstr ""
+
+#: build/sigma/comments.php:22 build/sigma/comments.php:37 comments.php:22
+#: comments.php:37
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: build/sigma/comments.php:23 build/sigma/comments.php:38 comments.php:23
+#: comments.php:38
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: build/sigma/comments.php:45 comments.php:45
+msgid "Comments are closed."
+msgstr ""
+
+#: build/sigma/comments.php:53 comments.php:53
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: build/sigma/comments.php:54 comments.php:54
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: build/sigma/content-full-width-page.php:24 build/sigma/content.php:24
+#: build/sigma/event-organiser/single-event.php:49
+#: content-full-width-page.php:24 content.php:24
+#: event-organiser/single-event.php:49
+msgid "By"
+msgstr ""
+
+#: build/sigma/content-full-width-page.php:31 build/sigma/content.php:31
+#: build/sigma/event-organiser/single-event.php:56
+#: content-full-width-page.php:31 content.php:31
+#: event-organiser/single-event.php:56
+msgid "on"
+msgstr ""
+
+#: build/sigma/content-full-width-page.php:37 build/sigma/content.php:37
+#: build/sigma/event-organiser/single-event.php:65
+#: content-full-width-page.php:37 content.php:37
+#: event-organiser/single-event.php:65
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: build/sigma/content-full-width-page.php:48 build/sigma/content.php:48
+#: build/sigma/loop.php:30 content-full-width-page.php:48 content.php:48
+#: loop.php:30
+#, php-format
+msgid "Posted on: %s"
+msgstr ""
+
+#: build/sigma/content-full-width-page.php:54 build/sigma/content.php:54
+#: build/sigma/loop.php:36 content-full-width-page.php:54 content.php:54
+#: loop.php:36
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: build/sigma/content-full-width-page.php:59 build/sigma/content.php:59
+#: build/sigma/event-organiser/single-event.php:74
+#: build/sigma/includes/class-sigmatheme-walker-comment.php:171
+#: build/sigma/includes/class-sigmatheme-walker-comment.php:229
+#: build/sigma/loop.php:41 content-full-width-page.php:59 content.php:59
+#: event-organiser/single-event.php:74
+#: includes/class-sigmatheme-walker-comment.php:171
+#: includes/class-sigmatheme-walker-comment.php:229 loop.php:41
+msgid "Edit"
+msgstr ""
+
+#: build/sigma/content-full-width-page.php:62 build/sigma/content.php:62
+#: build/sigma/loop.php:44 content-full-width-page.php:62 content.php:62
+#: loop.php:44
+#, php-format
+msgid "Categories: %s"
+msgstr ""
+
+#: build/sigma/content-full-width-page.php:66 build/sigma/content.php:66
+#: build/sigma/event-organiser/single-event.php:78 build/sigma/loop.php:48
+#: content-full-width-page.php:66 content.php:66
+#: event-organiser/single-event.php:78 loop.php:48
+msgid "Tags:"
+msgstr ""
+
+#: build/sigma/event-organiser/archive-event.php:14
+#: build/sigma/event-organiser/archive-event.php:17
+#: build/sigma/event-organiser/archive-event.php:20
+#: event-organiser/archive-event.php:14 event-organiser/archive-event.php:17
+#: event-organiser/archive-event.php:20
+msgid "Events: "
+msgstr ""
+
+#: build/sigma/event-organiser/archive-event.php:22
+#: event-organiser/archive-event.php:22
+msgid "Events"
+msgstr ""
+
+#: build/sigma/event-organiser/archive-event.php:62
+#: build/sigma/event-organiser/taxonomy-event-category.php:57
+#: build/sigma/event-organiser/taxonomy-event-tag.php:57
+#: build/sigma/event-organiser/taxonomy-event-venue.php:59
+#: event-organiser/archive-event.php:62
+#: event-organiser/taxonomy-event-category.php:57
+#: event-organiser/taxonomy-event-tag.php:57
+#: event-organiser/taxonomy-event-venue.php:59
+msgid "Later events <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: build/sigma/event-organiser/archive-event.php:63
+#: build/sigma/event-organiser/taxonomy-event-category.php:58
+#: build/sigma/event-organiser/taxonomy-event-tag.php:58
+#: build/sigma/event-organiser/taxonomy-event-venue.php:60
+#: event-organiser/archive-event.php:63
+#: event-organiser/taxonomy-event-category.php:58
+#: event-organiser/taxonomy-event-tag.php:58
+#: event-organiser/taxonomy-event-venue.php:60
+msgid " <span class=\"meta-nav\">&larr;</span> Newer events"
+msgstr ""
+
+#: build/sigma/event-organiser/archive-event.php:71
+#: build/sigma/event-organiser/taxonomy-event-category.php:66
+#: build/sigma/event-organiser/taxonomy-event-tag.php:66
+#: build/sigma/event-organiser/taxonomy-event-venue.php:68
+#: event-organiser/archive-event.php:71
+#: event-organiser/taxonomy-event-category.php:66
+#: event-organiser/taxonomy-event-tag.php:66
+#: event-organiser/taxonomy-event-venue.php:68
+msgid "Nothing Found"
+msgstr ""
+
+#: build/sigma/event-organiser/archive-event.php:75
+#: build/sigma/event-organiser/taxonomy-event-category.php:70
+#: build/sigma/event-organiser/taxonomy-event-tag.php:70
+#: build/sigma/event-organiser/taxonomy-event-venue.php:72
+#: event-organiser/archive-event.php:75
+#: event-organiser/taxonomy-event-category.php:70
+#: event-organiser/taxonomy-event-tag.php:70
+#: event-organiser/taxonomy-event-venue.php:72
+msgid "Apologies, but no results were found for the requested archive"
+msgstr ""
+
+#: build/sigma/event-organiser/single-event.php:76
+#: event-organiser/single-event.php:76
+msgid "Categories:"
+msgstr ""
+
+#: build/sigma/event-organiser/taxonomy-event-category.php:11
+#: event-organiser/taxonomy-event-category.php:11
+#, php-format
+msgid "Event Category Archives: %s"
+msgstr ""
+
+#: build/sigma/event-organiser/taxonomy-event-tag.php:11
+#: event-organiser/taxonomy-event-tag.php:11
+#, php-format
+msgid "Event Tag Archives: %s"
+msgstr ""
+
+#: build/sigma/event-organiser/taxonomy-event-venue.php:13
+#: event-organiser/taxonomy-event-venue.php:13
+#, php-format
+msgid "Events at: %s"
+msgstr ""
+
+#: build/sigma/functions.php:75 functions.php:75
+msgid "Read more &raquo;"
+msgstr ""
+
+#: build/sigma/includes/class-sigmatheme-walker-comment.php:171
+#: includes/class-sigmatheme-walker-comment.php:171
+msgid "Pingback:"
+msgstr ""
+
+#: build/sigma/includes/class-sigmatheme-walker-comment.php:207
+#: includes/class-sigmatheme-walker-comment.php:207
+#, php-format
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
+msgstr ""
+
+#: build/sigma/includes/class-sigmatheme-walker-comment.php:212
+#: includes/class-sigmatheme-walker-comment.php:212
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: build/sigma/includes/class-sigmatheme-walker-comment.php:224
+#: includes/class-sigmatheme-walker-comment.php:224
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: build/sigma/includes/class-sigmatheme-walker-comment.php:270
+#: includes/class-sigmatheme-walker-comment.php:270
+msgid "Home"
+msgstr ""
+
+#: build/sigma/loop.php:77 loop.php:77
+msgid ""
+"Apologies, but no results were found. Perhaps searching will help find a "
+"related post."
+msgstr ""
+
+#: build/sigma/search.php:17 search.php:17
+#, php-format
+msgid "Search Results for: <em>%s</em>"
+msgstr ""
+
+#: build/sigma/searchform.php:6 searchform.php:6
+msgid "Search &hellip;"
+msgstr ""
+
+#: build/sigma/searchform.php:9 searchform.php:9
+msgid "Search"
+msgstr ""
+
+#: build/sigma/sidebar.php:14 sidebar.php:14
+msgid "You need to drag a widget into your sidebar in the WordPress Admin"
+msgstr ""
