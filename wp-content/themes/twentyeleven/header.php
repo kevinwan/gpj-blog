@@ -25,12 +25,12 @@
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width" />
 <?php
-if (is_home()) {
+if (get_post($id)->keywords) {
 	echo "<meta name='keywords' content='".get_post($id)->keywords."'>";
 	echo "<meta name='description' content='".get_post($id)->description."'>";
 } else {
-	echo "<meta name='keywords' content='南京二手车，, 公平价二手车，二手车指南，二手车估值，公平价'>";
-	echo "<meta name='description' content='南京二手车-公平价二手车 | 公平价-独立第三方的二手车估值和搜索引擎'>";
+	echo "<meta name='keywords' content='公平价二手车，二手车指南，二手车估值，公平价'>";
+	echo "<meta name='description' content='公平价二手车 | 公平价-独立第三方的二手车估值和搜索引擎'>";
 }
 ?>
 <title><?php
