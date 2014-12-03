@@ -18,13 +18,13 @@
 define('DB_NAME', 'gpj_blog');
 
 /** MySQL 数据库用户名 */
-define('DB_USER', 'root');
+define('DB_USER', 'pingjia');
 
 /** MySQL 数据库密码 */
-define('DB_PASSWORD', 'hY67UJMN');
+define('DB_PASSWORD', 'De32wsxc');
 
 /** MySQL 主机 */
-define('DB_HOST', 'localhost');
+define('DB_HOST', '192.168.206.212');
 
 /** 创建数据表时默认的文字编码 */
 define('DB_CHARSET', 'utf8');
