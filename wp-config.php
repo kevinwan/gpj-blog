@@ -16,22 +16,16 @@
 // ** MySQL 设置 - 具体信息来自您正在使用的主机 ** //
 /** WordPress 数据库的名称 */
 define('DB_NAME', 'gpj_blog');
-
 /** MySQL 数据库用户名 */
 define('DB_USER', 'pingjia');
-
 /** MySQL 数据库密码 */
 define('DB_PASSWORD', 'De32wsxC');
-
 /** MySQL 主机 */
 define('DB_HOST', '211.149.206.212');
-
 /** 创建数据表时默认的文字编码 */
 define('DB_CHARSET', 'utf8');
-
 /** 数据库整理类型。如不确定请勿更改 */
 define('DB_COLLATE', '');
-
 /**#@+
  * 身份认证密匙设定。
  *

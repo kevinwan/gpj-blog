@@ -10,23 +10,23 @@
  */
 ?>
 
-	</div><!-- #main -->
+        </div><!-- #main -->
 
-	<footer id="colophon" role="contentinfo">
+        <footer id="colophon" role="contentinfo">
 
-			<?php
-				/* A sidebar in the footer? Yep. You can can customize
-				 * your footer with three columns of widgets.
-				 */
-				if ( ! is_404() )
-					get_sidebar( 'footer' );
-			?>
+                        <?php
+                                /* A sidebar in the footer? Yep. You can can customize
+                                 * your footer with three columns of widgets.
+                                 */
+                                if ( ! is_404() )
+                                        get_sidebar( 'footer' );
+                        ?>
 
-			<div id="site-generator">
-				<p>&copy;<a href="http://www.gongpingjia.com" target="_blank">二手评估</a><a href="http://www.gongpingjia.com" target="_blank">二手估价</a>就上<a href="http://www.gongpingjia.com" target="_blank">公平价</a></p>
-				<?php do_action( 'twentyeleven_credits' ); ?>
-			</div>
-	</footer><!-- #colophon -->
+                        <div id="site-generator">
+                                <p>&copy;<a href="http://www.gongpingjia.com" target="_blank">二手评估</a><a href="http://www.gongpingjia.com" target="_blank">二手估价</a>就上<a href="http://www.gongpingjia.com" target="_blank">公平价</a></p>
+                                <?php do_action( 'twentyeleven_credits' ); ?>
+                        </div>
+        </footer><!-- #colophon -->
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
@@ -38,3 +38,6 @@
 <script type="text/javascript" id="clientjs" src="http://cy-e.com/theapi/getjs?id=203308&type=30"></script>
 </body>
 </html>
+
+
+
