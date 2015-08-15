@@ -21,7 +21,7 @@ define('DB_USER', 'pingjia');
 /** MySQL 数据库密码 */
 define('DB_PASSWORD', 'De32wsxC');
 /** MySQL 主机 */
-define('DB_HOST', '211.149.206.212');
+define('DB_HOST', '10.51.178.7');
 /** 创建数据表时默认的文字编码 */
 define('DB_CHARSET', 'utf8');
 /** 数据库整理类型。如不确定请勿更改 */
